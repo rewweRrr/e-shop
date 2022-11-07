@@ -1,10 +1,11 @@
 import React from 'react';
-import styles from './app.module.css';
+import Product from '../product/product.component';
+import { productListData } from '../../data/product.data';
 
 function App() {
     return (
         <>
-            <div className={styles.app}>Hello</div>
+            <Product {...productListData[0]} />
         </>
     );
 }
