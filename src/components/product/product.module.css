@@ -1,11 +1,28 @@
 .Product {
     display: flex;
-    flex-direction: column;
-    row-gap: 4px;
+    flex-direction: row;
+    column-gap: 16px;
 }
 
 .Image {
     object-fit: contain;
     width: 200px;
     height: 200px;
+}
+
+.ProductInfo {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.ProductTitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ProductDescription {
+    font-size: 14px;
+    color: #8f8f8f;
 }

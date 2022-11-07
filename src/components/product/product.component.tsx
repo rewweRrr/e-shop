@@ -4,11 +4,14 @@ import styles from './product.module.css';
 
 type ProductProps = ProductDto;
 
-const Product: FC<ProductProps> = ({ title, image }) => {
+const Product: FC<ProductProps> = ({ title, image, description }) => {
     return (
         <div className={styles.Product}>
-            {title}
             <img className={styles.Image} src={image} alt="" />
+            <div className={styles.ProductInfo}>
+                <span className={styles.ProductTitle}>{title}</span>
+                <span className={styles.ProductDescription}>{description}</span>
+            </div>
         </div>
     );
 };
