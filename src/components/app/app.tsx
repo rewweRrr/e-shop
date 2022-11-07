@@ -6,8 +6,6 @@ function App() {
     return (
         <>
             <Product {...productListData[0]} />
-            <Product {...productListData[1]} />
-            <Product {...productListData[2]} />
         </>
     );
 }
