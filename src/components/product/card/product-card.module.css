@@ -1,7 +1,11 @@
-.Product {
+.Card {
+    padding: 16px;
     display: flex;
     flex-direction: row;
     column-gap: 32px;
+    border: 1px solid #8f8f8f;
+    border-radius: 10px;
+    width: fit-content;
 }
 
 .Image {
@@ -10,23 +14,23 @@
     height: 200px;
 }
 
-.ProductInfo {
+.CardInfo {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
 
-.ProductTitle {
+.CardTitle {
     font-size: 16px;
     font-weight: 700;
 }
 
-.ProductDescription {
+.CardDescription {
     font-size: 14px;
     color: #8f8f8f;
 }
 
-.ProductPrice {
+.CardPrice {
     display: flex;
     justify-content: center;
     font-size: 24px;
