@@ -1,6 +1,6 @@
-import { ProductDto } from '../models/product.model';
+import { Product } from '../models/product.model';
 
-export const productListData: ProductDto[] = [
+export const productListData: Product[] = [
     {
         id: 1,
         title: 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops',

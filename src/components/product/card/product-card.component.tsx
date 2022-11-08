@@ -1,8 +1,8 @@
 import React, { FC, memo } from 'react';
-import { ProductDto } from '../../../models/product.model';
+import { Product } from '../../../models/product.model';
 import styles from './product-card.module.css';
 
-type ProductCardProps = ProductDto;
+type ProductCardProps = Product;
 
 const ProductCard: FC<ProductCardProps> = ({ title, image, description, price }) => {
     return (
