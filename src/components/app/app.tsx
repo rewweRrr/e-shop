@@ -1,13 +1,8 @@
 import React from 'react';
-import ProductCard from '../product/card/product-card.component';
-import { productListData } from '../../data/product.data';
+import ProductListContainer from '../product/list/product-list.container';
 
 function App() {
-    return (
-        <>
-            <ProductCard {...productListData[0]} />
-        </>
-    );
+    return <ProductListContainer />;
 }
 
 export default App;
