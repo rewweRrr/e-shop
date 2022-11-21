@@ -26,11 +26,6 @@
     font-weight: 700;
 }
 
-.CardDescription {
-    font-size: 14px;
-    color: #8f8f8f;
-}
-
 .CardPrice {
     display: flex;
     justify-content: center;
