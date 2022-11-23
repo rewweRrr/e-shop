@@ -19,9 +19,13 @@ export function useProducts() {
         }
     }
 
+    function addProduct(product: Product) {
+        setProducts(prevState => [product, ...prevState]);
+    }
+
     useEffect(() => {
         void fetchProducts();
     }, []);
 
-    return { products, loading, error };
+    return { products, addProduct, loading, error };
 }

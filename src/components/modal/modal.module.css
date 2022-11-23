@@ -1,0 +1,45 @@
+.Modal {
+    background: #fff;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    max-height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 32px;
+}
+
+.ModalMask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #8f8f8f50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #8f8f8f;
+    padding: 16px 32px 16px;
+    margin: 0 -32px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Close {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    fill: #8f8f8f;
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px ;
+}
